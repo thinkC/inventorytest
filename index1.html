@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+	<h1>Inventory</h1>
+
+	<form action="index.html" method="POST">
+    <div class="form-group">
+    <input class="form-control" type="text" name="code" placeholder="chemical code">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="desc" placeholder="chemical description">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="number" name="Iqty" id="initialQ" placeholder="initial quantity">
+    </div>
+     <div class="form-group">
+    <input class="form-control" type="number" name="stock" id="stockQ" placeholder="skock on hand">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="number" name="Rqty" id="requestedQ" placeholder="requested quantity">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="pac" placeholder="package type">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="lot" placeholder="lot number">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="dept" placeholder="department">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="country" placeholder="country">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="date" name="manu_date" placeholder=" manufacturing date">
+    </div>
+    <div class="form-group">
+    <input class="form-control" type="date" name="exp_date" placeholder=" expiration date">
+    </div>
+    
+    <button class="btn btn-lg btn-primary btn-block" id="getTotal">Submit</button>
+    <a href="/chemicals">Go Back</a>
+</form>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

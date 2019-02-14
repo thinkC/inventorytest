@@ -1,0 +1,60 @@
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<div class="container">
+    
+ <div class="container">
+<header class="jumbotron">
+<h1 style="text-align: center">Chemical Inventory</h1>
+<a href="/chemicals/new" class="btn btn-primary btn-lg">Add new Chemicals</a> 
+</header>
+<body>
+    
+
+</div>
+
+<div id="output">
+<div id="output1"></div>
+    
+</div>
+<script src="app.js"></script>
+</body>
+
+<!-- <script>
+    var html = "";
+    html += '<table class="table table-hover">'
+    html += '<tr><th>Chemical Code</th><th>chemical Description</th><th>Initial Quantity</th><th>Stock</th>' 
+    
+    
+    html += '<th>Quantity Requested</th> <th>Package Type</th><th>LOT Number</th>'
+    html += '<th>Department</th><th>Country</th><th>Manu Date</th><th>Exp Date</th>'
+    console.log(chemicals)
+ for(var i=0; i< chemicals.length; i++){
+    
+	console.log(chemicals[i]['code'])
+	console.log(chemicals[i]['desc'])
+	console.log(chemicals[i]['Iqty'])
+        html += '<tr><td name="code">'+chemicals[i]["code"]+'</td>';
+        html += '<td name="desc">'+chemicals[i]["desc"]+'</td>';
+        html += '<td name="Iqty" id="initialQ" >'+chemicals[i]["Iqty"]+'</td>';
+        html += '<td name="stock" id="stokeQ" >'+chemicals[i]["stock"]+'</td>';
+        html += '<td name="Rqty" id="reqQ" >'+chemicals[i]["Rqty"]+'</td>';
+        html += ' <td name="pac">'+chemicals[i]["pac"]+'</td>';
+        html += '<td name="lot">'+chemicals[i]["lot"]+'</td>';
+        html += '<td name="dept">'+chemicals[i]["dept"]+'</td>';
+        html += '<td name="country">'+chemicals[i]["country"]+'</td>';
+        html += '<td name="manu_date">'+chemicals[i]["manu_date"]+'</td>';
+        html += '<td name="exp_date">'+chemicals[i]["exp_date"]+'</td>';
+   }
+     document.getElementById('output').innerHTML = html;
+   
+    var reqQ = document.getElementById('reqQ');
+    var initialQ = document.getElementById('initialQ')
+    var stockQ = document.getElementById('stockQ');
+    console.log(reqQ)
+  
+
+</script>
+      -->
+     
+ </div>  
+  
